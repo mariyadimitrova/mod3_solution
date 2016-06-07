@@ -1,0 +1,134 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: #00802b;
+  font-family: Verdana, sans-serif;
+  }
+
+#header-nav {
+	background-color: #ffff66;
+	border-radius: 0;
+	border: 0;
+	margin: 0;
+}
+
+.container{
+	margin: 0;
+}
+
+.navbar-brand h1 {
+	color: #b30000;
+	font-size: 20px;
+	margin: 0;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #222;
+}
+
+.nav-list li {
+	color: #b30000;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #00802b;
+}
+
+#ourmenu {
+  	text-transform: uppercase;
+  	font-weight: bold;
+  	color: white;
+}
+
+#Pizza, #Pasta, #Antipasti{
+	height: 800px;
+  	width: 100%;
+  	margin-bottom: 25px;
+  	margin-top: 10px;
+  	position: relative;
+  	border: 2px solid #b30000;
+  	overflow: hidden;
+  	background: url('../images/mod3_1.jpg') no-repeat;
+  	background-position: center;
+  	background-size: 100%;
+}
+
+#Pizza h3, #Pasta h3, #Antipasti h3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin:0px;
+  font-size: 1.2em;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #ffff99;
+  color: black;
+  opacity: .8;
+}
+
+#p1, #p2, #p3{
+	padding-top: 30px;
+	font-style: italic;
+	color: #800000;
+}
+
+#gotop {
+	position: absolute;
+	bottom:0px
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar-brand h1 {
+    font-size: 25px; 
+	}
+}
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 5vw; 
+  }
+  #button {
+  	margin-top: 22px;
+  }
+  #collapsable-nav{
+  	padding: 0;
+  	border: 0;
+  }
+
+  #nav-list {
+    background-color: #ffd11a;
+  	text-align: center;
+  	margin: 0;
+  	font-size: 20px;
+  }
+
+  #nav-list li{
+  	box-shadow: 1px 1px #00802b;
+  
+  }
+
+  #nav-list a {
+  	color: #b30000;
+  }
+ 
+  #Pizza, #Pasta, #Antipasti{
+  	background: url('../images/mod3_xs.jpg') no-repeat;
+  	background-position: center;
+  	background-size: 100%;
+  }
+  #p1, #p2, #p3{
+	padding-right: 150px;
+	}
+}
